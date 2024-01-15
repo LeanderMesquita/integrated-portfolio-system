@@ -1,0 +1,518 @@
+/* CSS HEADER */
+.anchor{
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+
+    #container-header{
+        padding-top: 25px;
+    }
+    .container-logo {
+        max-width: 90%;
+    }
+    .logo img {
+        max-width: 80%; 
+    }
+    div.space {
+        margin-top: 1rem;
+    }
+    img.logo-ipla {
+        margin-left: 0;
+    }
+
+    /*FOOTER MOBILE*/
+    .responsive {
+        padding-left: 1.5rem!important;
+        padding-right: 1.5rem!important;
+    }
+    div.footer-responsive {
+        margin-top: 3rem!important;
+        padding-left: 0!important;
+        margin-left: 0!important;
+    }
+}
+
+
+/* admin */
+#body-admin {
+    background-color: #f5f5f7;
+}
+
+#form-admin input, #form-admin textarea {
+    border-radius: 4px;
+}
+
+.input-container{
+    display: flex;
+    align-items: center;
+}
+
+#add-button {
+    background: rgb(34, 124, 195);
+    background: linear-gradient(
+        0deg,
+        rgba(34, 124, 195, 1) 0%,
+        rgba(51, 45, 253, 1) 100%
+    );
+}
+
+
+ /* ADMIN form table list etc  */
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #c3c4cb;
+}
+
+.inactive-project{
+    filter: saturate(0%);
+}
+
+.text-form-create{
+    text-align: left;
+}
+
+.img-project{
+    height: 70px;
+    width: 70px;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+span.help-block{
+    color: red;
+}
+
+div.container-custom{
+    max-width: 700px;
+}
+/* admin input file multiple */
+.displayImage {
+    display: flex;
+    align-items: center;
+    width: 450px;
+}
+.radioDisplay{
+    width: 20px;
+}
+
+
+/*CSS FOOTER*/
+footer .over {
+    background: rgba(0,0,0,.93);
+    color: white;
+}
+footer .title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFF;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* HOME CSS CUSTOM */
+.hover-option3 .grid-item .slide-hover-box:hover .opacity-medium 
+{   opacity: 0.85 !important; 
+    transition: all 0.3s ease 0s;
+    -webkit-transition:
+    all 0.3s ease 0s; 
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s; 
+    -o-transition: all 0.3s ease 0s;}
+
+.slide-hover-box:hover p {
+    max-height: 180px !important;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* CSS ABOUT */
+section.parallax.banner-about {
+    background-size: cover!important;
+}
+.banner-about {
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.bg-extra-dark {
+    background-color: #000;
+}
+.logo-ipla {
+    width: 80%;
+    margin-left: 90px;
+}
+.text-shadow {
+    text-shadow: #000000d6 0.1em 0.1em 0.2em;
+}
+.title-about {
+    font-size: 16px;
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000d6 0.1em 0.1em 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.timeline-about {
+    position: relative;
+    padding: 4px 0 0 0;
+    margin-top: 60px;
+    list-style: none;
+}
+.timeline-about>li .timeline-image {
+    z-index: 100;
+    position: absolute;
+    left: 50%;
+    width: 156px;
+    height: 156px;
+    margin-left: -90px;
+}
+.timeline-about > li .timeline-panel {
+    position: relative;
+    float: left;
+    width: 41%;
+    padding: 0 20px 20px 30px;
+    text-align: right;
+}
+.timeline-about>li:nth-child(odd) {
+    position: relative;
+    margin-bottom: -25px;
+    height: 180px;
+    left: -60px;
+}
+.timeline-about>li:nth-child(even) {
+    position: relative;
+    margin-bottom: -25px;
+    height: 180px;
+    right: -60px;
+}
+.timeline-about>li.timeline-inverted>.timeline-panel {
+    float: right;
+    padding: 0 30px 20px 0;
+    text-align: left;
+}
+.timeline-about .timeline-heading .possibility-1 {
+    color: #000;
+}
+.timeline-about .timeline-heading h4 {
+    margin-top: 22px;
+    margin-bottom: 4px;
+    padding: 0;
+    color: #b3b3b3;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.timeline-about .timeline-body p {
+    font-size: 18px;
+}
+.timeline-about>li:after {
+    clear: both;
+    min-height: 170px;
+}
+.timeline-about>li:before, .timeline-about>li:after {
+    content: " ";
+    display: table;
+}
+.service-about{
+    background-color: #fff;
+}
+.new-section {
+    background-color: #4e4d5017;
+}
+.about {
+    background-color: #fff;
+}
+.great-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #000000d6 0.1em 0.1em 0.2em;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.great-subtitle {
+    font-size: 25px;
+    color: #000000d6 0.1em 0.1em 0.2em;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+.flat-card {
+    border: none;
+    border-radius: 15px!important;
+    min-height: 300px;
+}
+.img-card-about {
+    width: 35%!important;
+    height: auto;
+    margin: 50px auto 10px;
+}
+.card-title {
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000d6 0.1em 0.1em 0.2em!important;
+    text-align: center;
+}
+.card-content {
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+}
+.img-about {
+    height: 80px;
+}
+
+
+
+
+/*CSS CONTACT*/
+section.parallax.banner-contact {
+    background-size: cover!important;
+}
+.banner-contact {
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 10rem!important;
+    padding-bottom: 10rem!important;
+}
+.bg-extra {
+    position: relative;
+    width: 100%;
+    opacity: 0.75;
+    top: 0;
+    left: 0;
+}
+.page-title{
+    background-color: #edf2f4;
+}
+.box-contact {
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0.2rem 0.3rem rgba(0,0,0,.08);
+}
+.send-email {
+    border-radius: 10px;
+    color: white;
+    background-color: #2b70b0;
+    border-color: #2b70b0;
+    width: 90px;
+    font-size: 1.1em;
+}
+.filter-green {
+    height: 40px;
+    filter: invert(60%) sepia(79%) saturate(469%) hue-rotate(71deg) brightness(91%) contrast(96%);
+}
+.filter-blue {
+    height: 40px;
+    filter: invert(74%) sepia(47%) saturate(7442%) hue-rotate(162deg) brightness(106%) contrast(102%)
+}
+.header-about {
+    background-color: #edf2f4;
+}
+
+/*CSS TECNOLOGIAS*/
+#portfolio-filter li a img:first-child {
+    width: 30px;
+    padding-bottom: 15px;
+}
+#portfolio-filter li a span {
+    position: relative;
+    display: block;
+    padding: 10px 0;
+    font-size: 1.3em;
+}
+#portfolio-filter li {
+    float: left;
+    position: relative;
+    padding: 0 5px 10px 0;
+}
+#portfolio-filter {
+    position: relative;
+    margin: 0 0 40px 0;
+    list-style: none;
+    display: block;
+}
+#portfolio-filter li a img:last-child {
+    padding-top: 10px;
+    width: 80px;
+}
+#portfolio-filter li a {
+    display: block;
+    position: relative;
+    padding: 0;
+    font-size: 13px;
+    text-align: center;
+    line-height: 15px;
+    color: #666;
+}
+.portfolio-desc h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+}
+.portfolio-item {
+    position: relative;
+    float: left;
+    width: 276px;
+    margin: 0 12px 12px 0;
+}
+.portfolio-item .portfolio-image, .portfolio-item .portfolio-image a, .portfolio-item .portfolio-image img {
+    display: block;
+    width: 276px;
+    height: 207px;
+}
+.portfolio-item .portfolio-image {
+    position: relative;
+    overflow: hidden;
+}
+.portfolio-desc {
+    z-index: 3;
+    padding: 15px 5px 10px;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    color: #000 !important;
+    background-color: #cccaca !important; 
+}
+
+
+
+/*PAGE-PROJECTS*/
+#card_projectDescription {
+    max-height: 280px !important;
+}
+
+.img-technology {
+    height: 30px;
+    width: 30px;
+}
+
+
+#zoomModal img {
+    max-height: 90vh;
+    width: 100%;
+    object-fit: contain;
+    object-position:center;
+}
+
+.carousel-item img {
+    height:780px;
+    width: 700px;
+    object-fit: cover; 
+    object-position: center; 
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.info-box {
+    border-left: 2px solid #b6b4b4 !important;
+    padding-bottom: 70%;
+    height: 100%;
+}
+ .pre-title {
+    font-family: "San Francisco", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+
+    color: #161616;
+}
+ .title {
+    font-family: "San Francisco", "Helvetica Neue", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #161616;
+}
+.description {
+    font-family: "San Francisco", "Helvetica Neue", sans-serif;
+    text-align: justify;
+    font-weight: 400;
+    font-size: 18px;
+    color: #161616;
+    line-height: 25px;
+}
+.label {
+    font-family: "San Francisco", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #161616;
+    line-height: 25px;
+}
+.response-label {
+    font-family: "San Francisco", "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #161616;
+    line-height: 25px;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+}
+
+.project-title {
+    font-family: "San Francisco", "Helvetica Neue", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    color: #161616;
+}
+.project-subtitle {
+    font-size: 16px;
+}
+
+/* WEBKITS */
+
+.scroll-container {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.scroll-container::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+.scroll-container::-webkit-scrollbar-thumb {
+    background-color: #bec4ca;
+    border-radius: 3px;
+}
+
+.scroller::-webkit-scrollbar {
+    width: 8px;
+}
+.scroller::-webkit-scrollbar-thumb {
+    background-color: #bec4ca;
+    border-radius: 3px;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #51565a;
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #efefef;
+}
+

@@ -1,0 +1,11 @@
+git-pull:
+  script:
+    
+    - chmod a+x ./deploy/pull.sh
+    - bash ./deploy/pull.sh
+   # - chmod -R 777 ./public/csv
+ 
+  tags:
+    - pull
+  only:
+    - develop  
